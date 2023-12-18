@@ -111,3 +111,44 @@
   flex-direction: row;
   gap:1rem;
 }
+
+.card {
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-size: 14px;
+  color: #888;
+}
+
+
+.moviecardContainer{
+  padding:3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
